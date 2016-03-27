@@ -93,7 +93,7 @@ public class LoadData {
         try {
             quoteDataSource = new QuoteDataSource(m_context);
             quoteDataSource.open();
-            List<String> dataList = readDataFile(am.open("app_data/quote_file_gen"));
+            List<String> dataList = readDataFile(am.open("app_data/quote_file"));
 
             for(String dataLine : dataList) {
                 boolean isValidEntry = false;
