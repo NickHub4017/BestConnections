@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomActionBar.ActionBar.TitleTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--<action_bar_red>-->
+    <!--<style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/CustomActionBarTheme.ActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/CustomActionBarTheme.ActionBar</item>
+        <item name="android:actionBarTabStyle">@style/CustomActionBarTheme.ActionBar.Tab</item>
+        <item name="android:popupMenuStyle">@style/CustomActionBarTheme.ActionBar.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/CustomActionBarTheme.ActionBar.DropDownListView</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBarTheme.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/CustomActionBar.ActionBar.TitleTextStyle</item>
+        <item name="android:icon">@mipmap/ic_drawer_custom</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="titleTextStyle">@style/CustomActionBar.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="CustomActionBarTheme.ActionBar.Tab" parent="android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+    <style name="CustomActionBarTheme.ActionBar.PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">#ffee1e00</item>
+    </style>
+
+    <style name="CustomActionBarTheme.ActionBar.DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_stylingactionbar
+        </item>
+    </style>
+    <!--</action_bar_red>-->
+
+
+    <!--<action_bar_blue>-->
+    <style name="CustomActionBarThemeBlue" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarThemeBlue.ActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/CustomActionBarThemeBlue.ActionBar</item>
+        <item name="android:actionBarTabStyle">@style/CustomActionBarThemeBlue.ActionBar.Tab</item>
+        <item name="android:popupMenuStyle">@style/CustomActionBarThemeBlue.ActionBar.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/CustomActionBarThemeBlue.ActionBar.DropDownListView</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBarThemeBlue.ActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_blue</item>
+        <item name="android:titleTextStyle">@style/CustomActionBar.ActionBar.TitleTextStyle</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background_blue</item>
+        <item name="titleTextStyle">@style/CustomActionBar.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="CustomActionBarThemeBlue.ActionBar.Tab" parent="android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+    <style name="CustomActionBarThemeBlue.ActionBar.PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">#ff2d54fc</item>
+    </style>
+
+    <style name="CustomActionBarThemeBlue.ActionBar.DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_stylingactionbar</item>
+    </style>
+    <!--</action_bar_blue>-->
+
+    <!--<action_bar_purple>-->
+    <style name="CustomActionBarThemePurple" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarThemePurple.ActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/CustomActionBarThemePurple.ActionBar</item>
+        <item name="android:actionBarTabStyle">@style/CustomActionBarThemePurple.ActionBar.Tab</item>
+        <item name="android:popupMenuStyle">@style/CustomActionBarThemePurple.ActionBar.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/CustomActionBarThemePurple.ActionBar.DropDownListView</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBarThemePurple.ActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background_purple</item>
+        <item name="android:titleTextStyle">@style/CustomActionBar.ActionBar.TitleTextStyle</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background_purple</item>
+        <item name="titleTextStyle">@style/CustomActionBar.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="CustomActionBarThemePurple.ActionBar.Tab" parent="android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+    <style name="CustomActionBarThemePurple.ActionBar.PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">#ffc600ff</item>
+    </style>
+
+    <style name="CustomActionBarThemePurple.ActionBar.DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_stylingactionbar</item>
+    </style>
+    <!--</action_bar_blue>-->
+</resources>

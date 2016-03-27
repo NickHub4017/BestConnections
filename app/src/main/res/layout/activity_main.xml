@@ -1,0 +1,208 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"  >
+
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<android.support.v7.widget.Toolbar-->
+                <!--android:id="@+id/my_awesome_toolbar"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:minHeight="?attr/actionBarSize"-->
+                <!--android:background="?attr/colorPrimary" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textViewC4L"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingBottom="10dp"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:text="CONNECT\n        4LIFE"-->
+                <!--android:textColor="#ff02a4f0"-->
+                <!--android:textSize="50sp"-->
+                <!--android:layout_alignParentTop="true" />-->
+
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:id="@+id/videoViewC4L"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewVideo"
+                android:layout_alignTop="@+id/videoViewC4L"
+                android:layout_alignLeft="@+id/videoViewC4L"
+                android:src="@mipmap/ic_video_background"
+                android:scaleType="centerCrop"
+                android:layout_above="@+id/tableLayout"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/videoViewC4L"
+                android:stretchColumns="*"
+                android:id="@+id/tableLayout">
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <TextView
+                        android:id="@+id/textViewBestConnectionMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffbd00"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="BEST CONNECTIONS"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffffff"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textIsSelectable="false"
+                        android:textSize="30sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <TextView
+                        android:id="@+id/textViewLifeFoundationsMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ff00bb9a"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="LIFE FOUNDATIONS"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffffff"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textIsSelectable="false"
+                        android:textSize="30sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <TextView
+                        android:id="@+id/textViewExploringOptionsMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff534e"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="EXPLORING OPTIONS"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffffff"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textIsSelectable="false"
+                        android:textSize="30sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <TextView
+                        android:id="@+id/textViewJournalMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffabcf49"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="MY JOURNAL"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffffff"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textIsSelectable="false"
+                        android:textSize="30sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <TextView
+                        android:id="@+id/textViewResources"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ff795894"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="RESOURCES"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffffff"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textIsSelectable="false"
+                        android:textSize="30sp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <TextView
+                        android:id="@+id/textViewAboutC4LMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff6e16"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:text="ABOUT C4L"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffffff"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textIsSelectable="false"
+                        android:textSize="30sp" />
+                </TableRow>
+            </TableLayout>
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+<!-- The navigation drawer -->
+    <include layout="@layout/layout_navigation_drawer" android:id="@+id/left_drawer"/>
+
+</android.support.v4.widget.DrawerLayout>

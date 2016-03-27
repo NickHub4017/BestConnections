@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="There are many resources available to help with your journey - your connection with Christ"
+            android:id="@+id/textViewClose1"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/imageViewClose1"
+            android:src="@mipmap/ic_uc_resources_for_the_journey"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/textViewClose1"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you have enjoyed our Best Connections app, please consider sharing this with others:"
+            android:id="@+id/textViewClose2"
+            android:textSize="25sp"
+            android:layout_below="@+id/imageViewClose1"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewClose2">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/imageViewCloseTwitter"
+                android:src="@mipmap/ic_twitter"
+                android:scaleType="fitCenter"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/imageViewCloseGoogle"
+                android:src="@mipmap/ic_google_plus"
+                android:scaleType="fitCenter"
+                android:gravity="center"
+                android:layout_weight="1" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/imageViewCloseFacebook"
+                android:src="@mipmap/ic_facebook"
+                android:scaleType="fitCenter"
+                android:gravity="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>
+
+
+
+

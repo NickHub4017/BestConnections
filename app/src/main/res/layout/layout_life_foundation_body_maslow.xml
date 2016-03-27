@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_above="@+id/imageViewNext">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Maslow, famous for his studies on what motivates people, stated that we are motivated to achieve certain needs. When one need is fulfilled a person seeks to fulfil the next one, and so on"
+                android:id="@+id/textViewQuote"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:textSize="@dimen/default_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="(tap a section of the triangle to view hierarchy)"
+                android:id="@+id/textViewSourceNDate"
+                android:layout_below="@+id/textViewQuote"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="@dimen/default_text_size_2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_lf_bo_maslow1"
+                android:id="@+id/imageView9"
+                android:layout_below="@+id/textViewSourceNDate" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:weightSum="5"
+                android:measureWithLargestChild="false"
+                android:layout_alignTop="@+id/imageView9"
+                android:layout_alignBottom="@+id/imageView9">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view8"
+                        android:layout_weight="0.83"
+                        android:text="Self-Actualization "
+                        android:textSize="@dimen/default_text_size_2"
+                        android:gravity="center"
+                        android:inputType="none"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view9"
+                        android:layout_weight="0.95"
+                        android:text="Esteem"
+                        android:textSize="@dimen/default_text_size_2"
+                        android:gravity="center"
+                        android:inputType="none"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view10"
+                        android:layout_weight="0.95"
+                        android:text="Love and Belongingness "
+                        android:textSize="@dimen/default_text_size_2"
+                        android:gravity="center"
+                        android:inputType="none"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view11"
+                        android:layout_weight="0.95"
+                        android:text="Safety"
+                        android:textSize="@dimen/default_text_size_2"
+                        android:gravity="center"
+                        android:inputType="none"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/view12"
+                        android:layout_weight="0.97"
+                        android:text="Biological and Physiological "
+                        android:textSize="@dimen/default_text_size_2"
+                        android:gravity="center"
+                        android:inputType="none"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayoutMaslowDes"
+                android:background="@drawable/text_view_rounded_corner"
+                android:layout_alignTop="@+id/imageView9"
+                android:layout_alignLeft="@+id/imageView9"
+                android:layout_alignRight="@+id/imageView9"
+                android:layout_alignBottom="@+id/imageView9"
+                android:visibility="invisible"
+                android:layout_margin="15dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/textView13"
+                    android:textSize="@dimen/default_text_size"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/textView14"
+                    android:layout_below="@+id/textView13"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/default_text_size"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewNext"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_next_button_red" />
+
+</RelativeLayout>

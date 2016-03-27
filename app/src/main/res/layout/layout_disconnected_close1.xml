@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@+id/imageViewNext" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THE FINAL VISIT FOR RECONNECTION"
+            android:id="@+id/textViewClose1"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You’ve come a long way, but really this is only the beginning of a journey that can last the rest of your life\n\nHere’s somewhere to go next"
+            android:id="@+id/textViewClose2"
+            android:textSize="25sp"
+            android:layout_below="@+id/textViewClose1"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageViewClose1"
+            android:src="@mipmap/ic_uc_close1"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/textViewClose2"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check out some stories from others who’ve made the best connection, like this one about Debs &amp; her daughter Shannia"
+            android:id="@+id/textViewClose3"
+            android:textSize="25sp"
+            android:layout_below="@+id/imageViewClose1"
+            android:gravity="center" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageViewClose2"
+            android:src="@mipmap/ic_dc_close1_2"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/textViewClose3"
+            android:gravity="center" />
+    </RelativeLayout>
+</ScrollView>
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageViewNext"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:src="@mipmap/ic_what_next_button_blue" />
+
+</RelativeLayout>
+
+

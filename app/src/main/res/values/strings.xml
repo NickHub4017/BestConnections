@@ -1,0 +1,240 @@
+<resources>
+
+    <string name="HTTP_URL_PATTERN">(https?://([-\\w\\.]+)+(:\\d+)?(/([\\w/_\\.-]*(\\?\\S+)?)?)?)</string>
+
+    <!-- CORE GOALS -->
+    <string name="string_core_goals_intro">Whether you’ve come straight to this bite of the apple - or have already chewed over Core Beliefs, you’re going to find this really interesting!\n\nIt’s about what you are throwing your time, money and energies at: your Core Goals.\n\nYour goals are deeply affected by your thoughts and beliefs about the world.  What you believe about the world will determine how you choose to behave and order your life priorities in the world.\n\nIf you haven’t already considered <u><b>Core Beliefs</b></u>, it might be worth starting there first.</string>
+    <string name="string_core_goals_intro2_1">So which is true for you?</string>
+    <string name="string_core_goals_intro2_21">1.	I have set myself very clear goals</string>
+    <string name="string_core_goals_intro2_22">2.	I have a vague idea of what I want to achieve in my life</string>
+    <string name="string_core_goals_intro2_23">3.	I haven’t the faintest clue of any personal goals</string>
+    <string name="string_core_goals_intro2_3">Click on one of the above to add your comments and thoughts about your current goals to your Journal.</string>
+    <string name="string_core_goals_intro3_1">Every training course you attend will tell you that Goals must be SMART!</string>
+    <string name="string_core_goals_intro3_2"><b>S</b> - specific, significant, stretching\n<b>M</b> - measurable, meaningful, motivational\n<b>A</b> - achievable, acceptable, action-oriented\n<b>R</b> - realistic, relevant, results-oriented\n<b>T</b> - time-based, tangible, trackable</string>
+    <string name="string_core_goals_intro3_3">How many of your personal goals are SMART compliant?</string>
+
+    <!--CORE BELIEF-->
+    <string name="title_activity_core_belife_intro">CORE BELIEFS</string>
+    <string name="title_activity_core_belife_splash">CORE BELIEFS</string>
+    <string name="string_core_belifes_intro">OK, let’s rock!\n\nThis is a journey to the centre of your being! What will you find at the core of who you are?\n\nDiscover your identity, considering to the collective wisdom of fellow travellers including presidents, actors, philosophers, scientists, singers and comedians.</string>
+    <string name="string_core_belifes_intro2">For those that make you think, use the <b>“Add to Journal”</b> to record your thoughts, from grand things like what gives you value and what the purpose is for your life, to everyday things like how the film you watched last night made you feel.\n\nTime to begin this epic interactive journey into your core beliefs about the world and how they affect your sense of identity, value and purpose.</string>
+
+    <!--CORE STATUS-->
+    <string name="title_activity_core_status_intro">CORE STATUS</string>
+    <string name="title_activity_core_status_quiz">CORE STATUS</string>
+    <string name="core_status_intro_heading">Introduction</string>
+    <string name="core_status_intro_content1">If you’ve already chewed over Core Beliefs or Core Goals, you’ll be wondering what Core Status is about! This is about you – how you feel about yourself as you track on through the world. In particular, the Core Status will look at your S-H-M:</string>
+    <string name="core_status_intro_content2">Security\n\nHappiness\n\nMotivation</string>
+
+    <!--SECURITY-->
+    <string name="core_status_intro_heading_s">Security</string>
+    <string name="core_status_intro_quote_s"></string>
+    <string name="core_status_intro_source_s"></string>
+    <string name="core_status_intro_content_s">\n<b>Security</b>\n\n\nWhat is it that makes me feel secure or insecure?\n\nHow can I maximise personal security?</string>
+
+    <!--HAPPINESS-->
+    <string name="core_status_intro_heading_h">\n<b>Happiness</b>\n\n\n“The purpose of our lives is to be happy,”</string>
+    <string name="core_status_intro_quote_h">What is happiness?\n\nAm I happy?\n\nCould I be happier?\n\nWhat makes me happy?</string>
+    <string name="core_status_intro_source_h">Dalai Lama (born 1935)</string>
+    <string name="core_status_intro_content_h">‘The teens used to be the golden years. Then it was decreed that life began at 40 but it seems true happiness does not begin until you hit 55,’ study for First Direct reported in The Telegraph 2.9.10, linking it to retirement and paying off mortgages. ‘This trend continues as they get older, with 71% of those older than 65 content with their lot’.\n\n‘One in four friendships is entirely digital with friends conversing at least once a week via Facebook, Twitter etc. On average, they last 6 years before meeting face to face’ – Future First, December 2013\n\n‘Britons have become miserable because we are selfish, unfit and anti-social, a group of eminent thinkers claims’ – Daily Telegraph 13.4.11. Action for Happiness, backed by the Dalai Lama, launched to combat this.</string>
+
+    <!--MOTIVATION-->
+    <string name="core_status_intro_heading_m">\n<b>Motivation</b>\n\n\n“Motivation is a fire from within. If someone else tries to light that fire under you, chances are it will burn very briefly,”</string>
+    <string name="core_status_intro_quote_m">What motivates you to get out of bed each morning?\n\nWhat lights your fire and makes sure it doesn’t go out?</string>
+    <string name="core_status_intro_source_m">Stephen Covey</string>
+    <string name="core_status_intro_content_m">What motivates you to get out of bed each morning?\n\nWhat lights your fire and makes sure it doesn’t go out?</string>
+
+    <!--JOURNAL-->
+    <string name="title_activity_journal_intro">JOURNAL</string>
+
+    <!--UNCONNECTED-->
+    <string name="title_activity_unconnected_intro">UNCONNECTED</string>
+    <string name="title_activity_unconnected_quiz">UNCONNECTED</string>
+    <string name="title_activity_unconnected">UNCONNECTED</string>
+    <string name="title_activity_unconnected_close1">UNCONNECTED</string>
+    <string name="title_activity_unconnected_close2">UNCONNECTED</string>
+    <string name="title_activity_unconnected_result">UNCONNECTED</string>
+    <string name="string_unconnected_quiz_title_1">JESUS CHRIST’S UNIQUE\nBACKGROUND AMAZING CLAIMS</string>
+    <string name="string_unconnected_quiz_subtitle_1">What do you know about him and his claims?\n• Consider each one and give a score on a sliding scale 1 – 10\n• 1 = ‘I’ve never heard that!’; 5 = ‘I might have heard that’; 10 = ‘I knew that’</string>
+    <string name="string_unconnected_result_1">10 – 20\nAt least you know more about the claims of Jesus Christ than perhaps you did! Here’s a question for you: there are three possibilities – Jesus was mad, bad OR who he said he was, the Son of God! Which one do you think it is and on what basis? Keep an open mind and stay on the journey. There’s more evidence to sift and people from history to hear.</string>
+    <string name="string_unconnected_result_2">21 – 60\nThere are some things that you have recalled here from people you’ve known, perhaps from relatives long gone and maybe from experiences you’ve had. As you think about the many quotes in the third section of Life Foundations on Spirit, consider whether there’s a longing in you for that best connection Jesus Christ offers. Perhaps a new spiritual life awaits.</string>
+    <string name="string_unconnected_result_3">61 – 100\nIt looks like you are coming close to finding that best connection to the new life in Christ. There’s more to read through but if you want to fast-track to make that connection, tap here (link to http://connect4life.org.uk/unconnected/unconnected-introduction). You may still be coming towards that point, so why not talk to God with your questions and ask for his help – it’s called praying.</string>
+    <string name="string_unconnected_quiz_title_2">The Lewis Litmus Test!</string>
+    <string name="string_unconnected_quiz_subtitle_2">Give yourself a score of 1 – 10 for each quote from Lewis where 10 is high in agreement\nHIGH FIVE FROM C.S. LEWIS! Academic, Intellectual, Writer and Philosopher born in Belfast 1898</string>
+    <string name="string_unconnected_result_4">5 – 10\nWell done for sticking with Best Connections App this far! Hopefully, there’s much that you have found of use or interest in the different sections. As you’ve nearly completed this, why not see it through to the end then at least you can say you’ve checked out fully the possibility of a Connected Life?</string>
+    <string name="string_unconnected_result_5">11 – 25\nThis has been an intriguing journey for you! How far do you think you have come and how far will you go in taking Jesus Christ seriously in his offer to connect you to God? Lewis’ fourth comment here is very pertinent in helping you to assess the claims of Christ. Lewis also said that Jesus was either bad, mad or who he said he is.</string>
+    <string name="string_unconnected_result_6">26 – 50\nHopefully the light is getting brighter and things are becoming clearer! Making the Best Connection is about discovering your Identity, Value and Purpose so you can live life to the full because Jesus can bridge the gap from you to God and from darkness to light. As the sun rises, so dark shadows take shape and we see the light of day.</string>
+    <string name="string_unconnected_quiz_title_3">CONNECTION – THE FINAL FRONTIER!</string>
+    <string name="string_unconnected_quiz_subtitle_3">Give yourself a score of 1 – 10 where 10 is highest positive reaction</string>
+    <string name="string_unconnected_result_7">10 – 15\nIt looks like this isn’t your time! As a ‘last - chance - saloon’, try watching the short video and reading the pdf on the link below. If the light still doesn’t go on, why not keep the app on the phone and go over notes you’ve made in My Journal? Maybe then you might find value in revisiting the app in a few weeks?</string>
+    <string name="string_unconnected_result_8">16 – 50\nYou’ve come to a good place – a springboard into The Connected Life. There’s probably a few more ‘i’s to dot and ‘t’s to cross, but you might want to find a helpful local course run by a church that will help you – two that are well known and popular are Alpha (link to http://www.alpha.org/try) and Christianity Explored (Link to http://www.christianityexplored.org/course/find)</string>
+    <string name="string_unconnected_result_9">51 – 100\nAre you ready for this? The most exciting and thrilling connection you’ll ever make and one that will completely fulfil and transform your life from disappointing mediocrity – it will put you into a new orbit with an ending that is a truly happy landing! To make the Best Connection, visit this link and use the prayer to help you – it will also be useful for you to consider Alpha or Christianity Explored as shown for those scoring 16 – 50.</string>
+
+    <!--DISCONNECTED-->
+    <string name="title_activity_disconnected_intro">DISCONNECTED</string>
+    <string name="title_activity_disconnected_quiz">DISCONNECTED</string>
+    <string name="title_activity_disconnected_result">DISCONNECTED</string>
+    <string name="title_activity_disconnected">DISCONNECTED</string>
+    <string name="title_activity_disconnected_close1">DISCONNECTED</string>
+    <string name="title_activity_disconnected_close2">DISCONNECTED</string>
+    <string name="string_disconnected_quiz_title_1">THE RECONNECTING GOD</string>
+    <string name="string_disconnected_quiz_subtitle_1">Consider how negative or positive you feel about the following on a sliding scale 1 – 10\n1 = Very negative, 5 = neutral, 10 = Very Positive\n\nWhat we know of God from His Word, the Bible</string>
+    <string name="string_disconnected_result_1">10 – 20\nYou may feel in a distant land but remember that God deeply loves the prodigal. You may not yet be ready to cross the threshold and return to your Father, but he’s looking for you and missing you. Perhaps the rest of this app will help you come to a realisation that it’s truly time to lay down your hurts, doubts and wrongs – there’s so much to be restored to you.</string>
+    <string name="string_disconnected_result_2">21 – 60\nThese reminders of God’s love for you bring comfort and reassurance. The best advice is to continue to be open to God’s healing – as he pours his blessings into you, let them lift you to the threshold of reconnection. This is a time to realise that there’s far more to your life than what you have settled for – swap pigswill and rags for your proper inheritance in Christ.</string>
+    <string name="string_disconnected_result_3">61 – 100\nYou seem to be very open to the reconnecting God and have heard his voice calling you back to the blessing of renewed relationship as his child. It’s probably worth going through the rest of this app, but if you’re ready to cross the threshold, take a short cut to the video and prayer (link to http://connect4life.org.uk/reconnected/reconnected-introduction) – why wait?</string>
+    <string name="string_disconnected_quiz_title_2">THE RECONNECTION THRESHOLD - Where are you?</string>
+    <string name="string_disconnected_quiz_subtitle_2">Consider how negative or positive you feel about the following on a sliding scale 1 – 10\n1 = Very negative 5 = neutral 10 = Very Positive</string>
+    <string name="string_disconnected_result_4">10 – 20\nHave you ever really understood the extent of God’s grace? It is limitless, without boundary and it can only be received by those who know they’ve done nothing to deserve it. The moment we think we’ve earned it in any way, we’ve missed the whole point of grace. It comes to a person at their weakness point and in their greatest need.</string>
+    <string name="string_disconnected_result_5">21 – 70\nThere are three main obstacles to crossing the ‘Reconnection Threshold’ - thinking in the world’s patterns, our own ‘self’ which is described as the ‘fleshly nature’, and the Devil who is a powerful enemy of returning children of God. If you truly want to cross the threshold, bring all those obstacles to the cross of Christ and find your release.</string>
+    <string name="string_disconnected_result_6">71 – 100\nYou face the same obstacles as for those scoring themselves 21–70 - although these seek to block your way, you seem to grasp the fact of God’s mighty grace. You need to grasp the hand that is offered to you to be sure of being carried over the threshold. Remember the short cut to the video (link to http://connect4life.org.uk/reconnected/reconnected-introduction) - if you are ready to take grace on board, go for it.</string>
+    <string name="string_disconnected_quiz_title_3">RECONNECTION – CROSSING THE THRESHOLD!</string>
+    <string name="string_disconnected_quiz_subtitle_3">Give yourself a score of 1 – 10 where 10 is highest positive reaction\nGOD’S INHERITANCE PROMISED TO EVERYONE WHO ACCEPTS HIS INVITATION TO RECONNECT</string>
+    <string name="string_disconnected_result_7">10 – 15\nMmm! You still seem a bit unsure that God loves you and accepts you no matter where you’ve been or what you’ve done. Let’s see, take a careful look left, right and behind you … have you got a better alternative?! If anything or anyone is standing in your way or blocking your view, what or who might that be? Don’t accept it.</string>
+    <string name="string_disconnected_result_8">16 – 50\nHappy days are coming! It’s all a matter of pressing through – don’t let anything or anyone get in the way of God’s plans to bless you and restore you. Maybe take a little more time to let the impact of God’s grace sink in – try Alpha (link to http://www.alpha.org/try) and Christianity Explored (link to http://www.christianityexplored.org/course/find)</string>
+    <string name="string_disconnected_result_9">51 – 100\nYou seem to be getting it! It’s a ‘hands - held - out - wide’ moment so don’t let anything stop you further – forget the next text, email, knock at the door or other interruption … you know where they come from! This is your time, so take it (link to http://connect4life.org.uk/reconnected/reconnected - introduction) – you’ll discover there are no regrets to crossing over, but many for those who do not.</string>
+
+    <!--RESOURCES-->
+    <string name="title_activity_resources">RESOURCES</string>
+    <string name="title_activity_resources_intro">RESOURCES</string>
+    <string name="title_activity_resources_quiz">RESOURCES</string>
+    <string name="title_activity_resources_result">RESOURCES</string>
+    <string name="string_resources_result_1">10 – 20\nA life with Christ is all gain – it is not to intimidate you or lay rules upon you! The freedom Christ gives means you can grow to reach your full potential, being the person God has called you to be and fulfilling all the things that he has uniquely shaped you for. To miss this would be the greatest loss in your life. Maybe sleep on it, but come back to it…soon! Have a look on the <a href="http://connect4life.org.uk/unconnected/unconnected-introduction">C4L website</a> or the booklet <a href="http://connect4life.org.uk/resources/order-resources">‘Unconnected? Give it 7 Days’</a></string>
+    <string name="string_resources_result_2">21 – 60\nFollowing Jesus is the way to find freedom from guilt, sin and death that separates us from God- but don’t think it is the easy way out! It is no crutch for ‘softies’ but it is to be a ‘new creation’ with the challenge of now living for God and becoming like Christ. You are not left alone for this as God gives you his Holy Spirit to walk with you every moment of every day. Find a church minister or Christian you respect who can help you forwards on the journey. It would help you to get hold the relevant Personal Study Guide from Connect4Life – either <a href="http://connect4life.org.uk/resources/order-resources">’21 Days Reconnected’</a> or <a href="http://connect4life.org.uk/resources/order-resources">’21 Days First Time Connected’</a></string>
+    <string name="string_resources_result_3">61 – 100\nThose who find life in Christ have found the greatest need of the human soul. To live ‘in Christ’ means that you have an inheritance prepared for God’s children – this connected life brings many amazing privileges that await your discovery. As Jesus is The Light of the World, he calls you to share that light in and through your life. Ask him to give you his Holy Spirit to help you. Find a church minister or Christian you respect who can help you forwards on the journey. It would help you to get hold the relevant Personal Study Guide from Connect4Life – either <a href="http://connect4life.org.uk/resources/order-resources">’21 Days Reconnected’</a> or <a href="http://connect4life.org.uk/resources/order-resources">’21 Days First Time Connected’</a></string>
+
+
+    <!--LIFE FOUNDATION-->
+    <string name="title_activity_life_foundation">LIFE FOUNDATIONS</string>
+    <!--LIFE FOUNDATION BODY-->
+    <string name="title_activity_life_foundation_body">BODY</string>
+    <string name="string_lfbo_result_1">10 – 39\nIt sounds like you have a few dimensions you’d like to improve. Why not focus on the ones you can change most easily and set yourself some goals to add to My Journal?</string>
+    <string name="string_lfbo_result_2">40 – 69\nThere are more possibilities than problems. What could you do to optimise your potential on lower scores?</string>
+    <string name="string_lfbo_result_3">70 – 100\nYou are in good shape all round! Are you working at maintaining this or taking it for granted?</string>
+    <string name="string_lfbo_maslow_1_heading">1. Biological and Physiological needs</string>
+    <string name="string_lfbo_maslow_1_content">air, food, drink, shelter, warmth, sex, sleep.</string>
+    <string name="string_lfbo_maslow_2_heading">2. Safety needs</string>
+    <string name="string_lfbo_maslow_2_content">protection from elements, security, order, law, stability, freedom from fear.</string>
+    <string name="string_lfbo_maslow_3_heading">3. Love and belongingness needs</string>
+    <string name="string_lfbo_maslow_3_content">friendship, intimacy, affection and love, - from work group, family, friends, romantic relationships.</string>
+    <string name="string_lfbo_maslow_4_heading">4. Esteem needs</string>
+    <string name="string_lfbo_maslow_4_content">achievement, mastery, independence, status, dominance, prestige, self-respect, respect from others.</string>
+    <string name="string_lfbo_maslow_5_heading">5. Self-Actualization needs</string>
+    <string name="string_lfbo_maslow_5_content">realizing personal potential, self-fulfillment, seeking personal growth and peak experiences.</string>
+    <string-array name="string_lfbo_result_des_items">
+        <item>Height|Posture, shoes! Nothing wrong with a heel! Stretch and walk well with your head up!</item>
+        <item>Weight|Diet, exercise regime, join a gym! Use the stairs rather than the lift! Get to know your sources of calories, sugars, fats and carbohydrates – keep them in a healthy balance.</item>
+        <item>Shape|Time for some new clothes? Dress well! Walk more, use car less! Visit NHS health site - http://www.healthcheck.nhs.uk/</item>
+        <item>Hair|Stylist’s advice – short, long, colour, wig?!</item>
+        <item>Skin|Diet, lotions, vitamins! Visit NHS Livewell site - http://www.nhs.uk/LiveWell.</item>
+        <item>Teeth|Daily care, flossing, orthodontist, sugar free mints! Keep up regular trips to dentist.</item>
+        <item>Face|Make up for some, facial exercises, grooming, self - acceptance!</item>
+        <item>Fitness|Get your pulse up for 20 minutes 3 times a week! Join a sports club. Prepare for 10k run. Stop smoking, drink less! http://quitsmokingcommunity.org/ https://www.facebook.com/RunKeeper http://www.mapmyrun.com/gb/</item>
+        <item>Strength|Use a resistance band each day to build stamina!</item>
+        <item>Intellect|Get puzzle book, do crosswords. Visit Mensa site - http://www.mensa.org.uk/workout</item>
+    </string-array>
+
+    <string name="title_activity_life_foundation_soul">SOUL</string>
+    <string name="string_lfso_quiz_title_1">SOUL PERSONALITY AUDIT 1</string>
+    <string name="string_lfso_quiz_subtitle_1">Extravert or introvert? How strongly do you agree with these statements, from 1 to 10 ?</string>
+    <string name="string_lfso_result_1">10 – 45\nYou are more inclined to prefer thinking alone and are quite happy with your own company for much of the time. There are some introvert aspects to your personality – nothing wrong with that!</string>
+    <string name="string_lfso_result_2">46 – 75\nYou can be the life and soul of a party but you are also happy with your own company. You are aware of other people’s feelings and quite strong on empathy. In short, you can be ‘extravert’ or introvert’ depending on the situation.</string>
+    <string name="string_lfso_result_3">76 – 100\nYou already know the outcome and are probably in touch with the fact that you are a big extravert! You are mainly confident and out-­‐going in work and leisure contexts. There may be a need for care not to clash with other extraverts.</string>
+    <string name="string_lfso_result_des">These concepts are based around the Myers-Briggs Type Indicator (MBTI). For more information on Myers-Briggs personality types, tap here (link to http://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/the-16-mbti-types.htm)</string>
+    <string name="string_lfso_quiz_title_2">SOUL PERSONALITY AUDIT 2</string>
+    <string name="string_lfso_quiz_subtitle_2">Are you a Sensor or Intuitive? How strongly do you agree with these comments, from 1 to 10</string>
+    <string name="string_lfso_result_4">10 – 45\nYour predisposition is to have more confidence in information that is present, tangible, and concrete. You are happier when it can be understood by the five senses. You tend to look for details and facts – the meaning is in the data.</string>
+    <string name="string_lfso_result_5">46 – 75\nYou’re a bit of a hybrid! You can have some really good hunches but you like to make sure that these can be backed up by facts and details. Thinking out of the box is OK for some things, but in big decisions you want to use the calculator.</string>
+    <string name="string_lfso_result_6">76 – 100\nYou tend to trust information that is more abstract or theoretical. Finding links is interesting for you – it is satisfying to discover patterns by relating remembered or newly discovered data. You’re more interested in future possibilities and in the theory and principles which are manifested in data.</string>
+    <string name="string_lfso_quiz_title_3">SOUL PERSONALITY AUDIT 3</string>
+    <string name="string_lfso_quiz_subtitle_3">Thinker or a Feeler? How strongly do you agree with these comments, from 1 to 10?</string>
+    <string name="string_lfso_result_7">10 – 45\nYou are known to be a caring person – people will often confide in you. You are concerned for the group, even if it means sometimes compromising on the overall result. Sometimes you find yourself feeling hurt by other people who are so objective they seem cold and thoughtless. Empathy and consensus are actually important to you.</string>
+    <string name="string_lfso_result_8">46 – 75\nHave you thought about tight-rope walking?! You are pretty well balanced on this dimension – you have a compassionate side but you are able to see things objectively when necessary. Be careful of two things – firstly that your emotions may cloud your judgement, and secondly that you lose touch with your feelings.</string>
+    <string name="string_lfso_result_9">76 – 100\nYou find it easy to be detached from emotions. Decisions should be made on what seems reasonable, logical, causal, consistent and matching a given set of rules. Sometimes you can’t understand people who can’t be objective and they may even annoy you.</string>
+    <string name="string_lfso_quiz_title_4">SOUL PERSONALITY AUDIT 4</string>
+    <string name="string_lfso_quiz_subtitle_4">Do you prefer Structure or Spontaneity? How strongly do you agree with these comments, from 1 to 10?</string>
+    <string name="string_lfso_result_10">10 – 45\nYour perceiving function is dominant in your outer life. You like a flexible and spontaneous way of life, preferring to understand and adapt to the world rather than organize it. Others see you staying open to new experiences and information. Approaching deadlines are stimulating.</string>
+    <string name="string_lfso_result_11">46 – 75\nGenerally, you are well-structured in your approach to life. However, you don’t mind lightening up in some contexts and can be surprisingly relaxed to those who are very strong on J! Lists are important but if you lose one, you won’t lose sleep, you’ll just write another one.</string>
+    <string name="string_lfso_result_12">76 – 100\nYou use your decision-making (Judging) preference (whether it is Thinking or Feeling) in your outer life. You prefer a planned or orderly way of life, like to have things settled and organized, feel more comfortable when decisions are made, and like to bring life under control as much as possible.</string>
+
+    <string name="INFP">INFPs are imaginative idealists, guided by their own core values and beliefs. To a Healer, possibilities are paramount; the realism of the moment is only of passing concern. They see potential for a better future, and pursue truth and meaning with their own individual flair. INFPs are sensitive, caring, and compassionate, and are deeply concerned with the personal growth of themselves and others. Individualistic and nonjudgmental, INFPs believe that each person must find their own path. They enjoy spending time exploring their own ideas and values, and are gently encouraging to others to do the same. INFPs are creative and often artistic; they enjoy finding new outlets for self-expression.</string>
+    <string name="INFJ">INFJs are creative nurturers with a strong sense of personal integrity and a drive to help others realize their potential. Creative and dedicated, they have a talent for helping others with original solutions to their personal challenges. The Counselor has a unique ability to intuit others\' emotions and motivations, and will often know how someone else is feeling before that person knows it himself. They trust their insights about others and have strong faith in their ability to read people. Although they are sensitive, they are also reserved; the INFJ is a private sort, and is selective about sharing intimate thoughts and feelings. </string>
+    <string name="INTJ">INTJs are analytical problem-solvers, eager to improve systems and processes with their innovative ideas. They have a talent for seeing possibilities for improvement, whether at work, at home, or in themselves. Often intellectual, INTJs enjoy logical reasoning and complex problem-solving. They approach life by analyzing the theory behind what they see, and are typically focused inward, on their own thoughtful study of the world around them. INTJs are drawn to logical systems and are much less comfortable with the unpredictable nature of other people and their emotions. They are typically independent and selective about their relationships, preferring to associate with people who they find intellectually stimulating. </string>
+    <string name="INTP">INTPs are philosophical innovators, fascinated by logical analysis, systems, and design. They are preoccupied with theory, and search for the universal law behind everything they see. They want to understand the unifying themes of life, in all their complexity. INTPs are detached, analytical observers who can seem oblivious to the world around them because they are so deeply absorbed in thought. They spend much of their time focused internally: exploring concepts, making connections, and seeking understanding. To the Architect, life is an ongoing inquiry into the mysteries of the universe. </string>
+    <string name="ISFJ">ISFJs are industrious caretakers, loyal to traditions and organizations. They are practical, compassionate, and caring, and are motivated to provide for others and protect them from the perils of life. ISFJs are conventional and grounded, and enjoy contributing to established structures of society. They are steady and committed workers with a deep sense of responsibility to others. They focus on fulfilling their duties, particularly when they are taking care of the needs of other people. They want others to know that they are reliable and can be trusted to do what is expected of them. They are conscientious and methodical, and persist until the job is done. </string>
+    <string name="ISFP">ISFPs are gentle caretakers who live in the present moment and enjoy their surroundings with cheerful, low-key enthusiasm. They are flexible and spontaneous, and like to go with the flow to enjoy what life has to offer. ISFPs are quiet and unassuming, and may be hard to get to know. However, to those who know them well, the ISFP is warm and friendly, eager to share in life\'s many experiences. ISFPs have a strong aesthetic sense and seek out beauty in their surroundings. They are attuned to sensory experience, and often have a natural talent for the arts. ISFPs especially excel at manipulating objects, and may wield creative tools like paintbrushes and sculptor\'s knives with great mastery.</string>
+    <string name="ISTJ">ISTJs are responsible organizers, driven to create and enforce order within systems and institutions. They are neat and orderly, inside and out, and tend to have a procedure for everything they do. Reliable and dutiful, ISTJs want to uphold tradition and follow regulations. ISTJs are steady, productive contributors. Although they are Introverted, ISTJs are rarely isolated; typical ISTJs know just where they belong in life, and want to understand how they can participate in established organizations and systems. They concern themselves with maintaining the social order and making sure that standards are met. </string>
+    <string name="ISTP">ISTPs are observant artisans with an understanding of mechanics and an interest in troubleshooting. They approach their environments with a flexible logic, looking for practical solutions to the problems at hand. They are independent and adaptable, and typically interact with the world around them in a self-directed, spontaneous manner. ISTPs are attentive to details and responsive to the demands of the world around them. Because of their astute sense of their environment, they are good at moving quickly and responding to emergencies. ISTPs are reserved, but not withdrawn: the ISTP enjoys taking action, and approaches the world with a keen appreciation for the physical and sensory experiences it has to offer.</string>
+    <string name="ENFJ">ENFJs are idealist organizers, driven to implement their vision of what is best for humanity. They often act as catalysts for human growth because of their ability to see potential in other people and their charisma in persuading others to their ideas. They are focused on values and vision, and are passionate about the possibilities for people. ENFJs are typically energetic and driven, and often have a lot on their plates. They are tuned into the needs of others and acutely aware of human suffering; however, they also tend to be optimistic and forward-thinking, intuitively seeing opportunity for improvement. The ENFJ is ambitious, but their ambition is not self-serving: rather, they feel personally responsible for making the world a better place.</string>
+    <string name="ENFP">ENFPs are people-centered creators with a focus on possibilities and a contagious enthusiasm for new ideas, people and activities. Energetic, warm, and passionate, ENFPs love to help other people explore their creative potential. ENFPs are typically agile and expressive communicators, using their wit, humor, and mastery of language to create engaging stories. Imaginative and original, ENFPs often have a strong artistic side. They are drawn to art because of its ability to express inventive ideas and create a deeper understanding of human experience. </string>
+    <string name="ENTJ">ENTJs are strategic leaders, motivated to organize change. They are quick to see inefficiency and conceptualize new solutions, and enjoy developing long-range plans to accomplish their vision. They excel at logical reasoning and are usually articulate and quick-witted. ENTJs are analytical and objective, and like bringing order to the world around them. When there are flaws in a system, the ENTJ sees them, and enjoys the process of discovering and implementing a better way. ENTJs are assertive and enjoy taking charge; they see their role as that of leader and manager, organizing people and processes to achieve their goals. </string>
+    <string name="ENTP">ENTPs are inspired innovators, motivated to find new solutions to intellectually challenging problems. They are curious and clever, and seek to comprehend the people, systems, and principles that surround them. Open- minded and unconventional, Visionaries want to analyze, understand, and influence other people. ENTPs enjoy playing with ideas and especially like to banter with others. They use their quick wit and command of language to keep the upper hand with other people, often cheerfully poking fun at their habits and eccentricities. While the ENTP enjoys challenging others, in the end they are usually happy to live and let live. They are rarely judgmental, but they may have little patience for people who can\'t keep up.</string>
+    <string name="ESFJ">ESFJs are conscientious helpers, sensitive to the needs of others and energetically dedicated to their responsibilities. They are highly attuned to their emotional environment and attentive to both the feelings of others and the perception others have of them. ESFJs like a sense of harmony and cooperation around them, and are eager to please and provide. ESFJs value loyalty and tradition, and usually make their family and friends their top priority. They are generous with their time, effort, and emotions. They often take on the concerns of others as if they were their own, and will attempt to put their significant organizational talents to use to bring order to other people\'s lives.</string>
+    <string name="ESFP">ESFPs are vivacious entertainers who charm and engage those around them. They are spontaneous, energetic, and fun-loving, and take pleasure in the things around them: food, clothes, nature, animals, and especially people. ESFPs are typically warm and talkative and have a contagious enthusiasm for life. They like to be in the middle of the action and the center of attention. They have a playful, open sense of humor, and like to draw out other people and help them have a good time. </string>
+    <string name="ESTJ">ESTJs are hardworking traditionalists, eager to take charge in organizing projects and people. Orderly, rule- abiding, and conscientious, ESTJs like to get things done, and tend to go about projects in a systematic, methodical way. ESTJs are the consummate organizers, and want to bring structure to their surroundings. They value predictability and prefer things to proceed in a logical order. When they see a lack of organization, the ESTJ often takes the initiative to establish processes and guidelines, so that everyone knows what\'s expected.</string>
+    <string name="ESTP">ESTPs are energetic thrill-seekers who are at their best when putting out fires, whether literal or metaphorical. They bring a sense of dynamic energy to their interactions with others and the world around them. They assess situations quickly and move adeptly to respond to immediate problems with practical solutions. Active and playful, ESTPs are often the life of the party and have a good sense of humor. They use their keen powers of observation to assess their audience and adapt quickly to keep interactions exciting. Although they typically appear very social, they are rarely sensitive; the ESTP prefers to keep things fast-paced and silly rather than emotional or serious.</string>
+
+    <string name="title_activity_life_foundation_spirit">SPIRIT</string>
+    <string name="string_lfsp_quiz_title_1">SPIRITUAL MIRROR REFLECTIONS</string>
+    <string name="string_lfsp_quiz_subtitle_1">How likely are you to be deeply affected in the following scenarios? Score each1 (lo) - 10 (hi)</string>
+    <string name="string_lfsp_result_1">10 – 45\nYou seem to have a very thick skin! Do you prefer to keep things superficial for self-protection? Are you possibly carrying many hurts and heavy loads on your journey? If so, could be a good time to lighten the load.</string>
+    <string name="string_lfsp_result_2">46 – 75\nYou have a tender heart and find that some things can really touch you to the core but others leave you cold. Whilst it’s surely good to look for the genuine, watch out that you are not over-cynical due to past disappointments.</string>
+    <string name="string_lfsp_result_3">76 – 100\nYour antennae are able to pick up lots of things and you are quite often stirred. You don’t mind thinking more deeply than some – be careful not to become morose. Life’s a journey for you with many fellow travellers.</string>
+    <string name="string_lfsp_quiz_title_2">BEST CONNECTIONS JOURNEY CHECKLIST!</string>
+    <string name="string_lfsp_quiz_subtitle_2">Strength of agreement where 1 is low and 10 is high.</string>
+    <string name="string_lfsp_result_4">10 – 30\nThese are pretty low scores which may mean you’re ready to lob this apple back on the compost heap. However, it may have had some use in prompting thoughts and emotions that you may come back to another time. Even one bite from an apple will carry some nutrition! Perhaps you can use some of the compost later in life when it’s well-rotted down.</string>
+    <string name="string_lfsp_result_5">31 – 75\nYou have found much of the content of this App has been stimulating to your thinking and you are probably open to step into the final section of Best Connections. The possibility of making connections that could deeply fulfil your needs for enduring IVP and SHM sounds intriguing. There are some pips in this apple that are certainly worth planting.</string>
+    <string name="string_lfsp_result_6">76 – 100\nTo your surprise, you have found this apple tasty and nutritious! You have found many kernels of truth in the pips! The last sections of this App await – an exciting stage for your life journey is within your reach, so put your best foot forward and discover the best connections that can truly satisfy your Body, Soul and Spirit.</string>
+    <string name="string_lfsp_close_2_1">“I reject any religious doctrine that does not appeal to reason and is in conflict with morality … My interpretation, in other words, is that in Jesus’ own life is the key of his nearness to God; that he expressed, as no other could, the spirit and will of God. It is in this sense that I see him and recognize him as the Son of God…. And because the life of Jesus has the significance and the transcendency to which I have alluded, I believe that he belongs not solely to Christianity, but to the entire world; to all races and people, it matters little under what flag, name or doctrine they may work, profess a faith, or worship a God inherited from their ancestors.”</string>
+    <string name="string_lfsp_close_2_2">Mahatma Ghandi</string>
+    <string name="string_lfsp_close_2_3">The number of people who have found their connection with God through the man Jesus Christ around the world has nearly quadrupled in the last 100 years, from about 600 million in 1910 to more than <b>2 billion</b> in 2010.</string>
+
+    <!--JOURNAL-->
+    <string name="title_activity_journal">MY JOURNAL</string>
+    <string name="title_activity_journal_quotes">JOURNAL</string>
+    <string name="title_activity_journal_answers">JOURNAL</string>
+    <string name="title_activity_journal_comments">JOURNAL</string>
+
+    <!--MY JOURNAL-->
+    <string name="title_activity_my_journal">MY JOURNAL</string>
+    <string name="title_activity_my_journal_quotes">MY JOURNAL</string>
+
+    <string name="app_name">Best Connections</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="string_my_journal">MY JOURNAL</string>
+    <string name="string_add_to_journal">ADD TO JOURNAL</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_core_beliefs">CORE BELIEFS</string>
+    <string name="title_activity_about_c4_l">ABOUT C4L</string>
+    <string name="title_activity_core_belief">CORE BELIEFS</string>
+    <string name="title_activity_core_status">CORE STATUS</string>
+    <string name="title_activity_core_goals_intro">CORE GOALS</string>
+    <string name="title_activity_core_goals_intro2">CORE GOALS</string>
+    <string name="title_activity_core_goals">CORE GOALS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_core_status_main">CORE STATUS</string>
+    <string name="title_activity_about_intro">ABOUT</string>
+    <string name="title_activity_core_status_security_intro">CORE STATUS</string>
+    <string name="title_activity_core_status_happiness_intro">CORE STATUS</string>
+    <string name="title_activity_core_status_motivation_intro">CORE STATUS</string>
+    <string name="title_activity_core_status_happiness_quiz">CORE STATUS</string>
+    <string name="title_activity_core_status_security_quiz">CORE STATUS</string>
+    <string name="title_activity_core_status_motivation_quiz">CORE STATUS</string>
+    <string name="title_activity_core_status_security_result">CORE STATUS</string>
+    <string name="title_activity_core_status_happiness_result">CORE STATUS</string>
+    <string name="title_activity_core_status_motivation_result">CORE STATUS</string>
+
+    <string-array name="volume_values">
+        <item>0</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <string name="key_pref_music_volume">3</string>
+    <string name="title_activity_journal_results">JournalResultsActivity</string>
+    <string name="title_activity_journal_results_tab">JournalResultsTabActivity</string>
+    <string name="title_activity_core_beliefs_close">CORE BELIEFS</string>
+    <string name="title_activity_core_goals_close">CORE GOALS</string>
+    <string name="title_activity_core_status_close1">CORE STATUS</string>
+</resources>

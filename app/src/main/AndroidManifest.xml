@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.syncbridge.bestconnections">
+
+    <!-- android:theme="@style/CustomActionBarTheme" -->
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme">
+        <activity
+            android:name="com.syncbridge.bestconnections.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CoreBeliefsActivity"
+            android:label="@string/title_activity_core_beliefs"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutC4LActivity"
+            android:label="@string/title_activity_about_c4_l"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResourcesActivity"
+            android:label="@string/title_activity_resources"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemePurple" />
+        <activity
+            android:name=".CoreStatusActivity"
+            android:label="@string/title_activity_core_status"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.syncbridge.bestconnections.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CoreStatusIntroActivity"
+            android:label="@string/title_activity_core_status_intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreBelifeIntroActivity"
+            android:label="@string/title_activity_core_belife_intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JournalIntroActivity"
+            android:label="@string/title_activity_journal_intro"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreGoalsIntroActivity"
+            android:label="@string/title_activity_core_goals_intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreGoalsIntro2Activity"
+            android:label="@string/title_activity_core_goals_intro2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreGoalsActivity"
+            android:label="@string/title_activity_core_goals"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UnconnectedActivity"
+            android:label="@string/title_activity_unconnected"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemeBlue" />
+        <activity
+            android:name=".DisconnectedActivity"
+            android:label="@string/title_activity_disconnected"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemeBlue" />
+        <activity
+            android:name=".ResourcesIntroActivity"
+            android:label="@string/title_activity_resources_intro"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemePurple" />
+        <activity
+            android:name=".ResourcesQuizActivity"
+            android:label="@string/title_activity_resources_quiz"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemePurple" />
+        <activity
+            android:name=".ResourcesResultActivity"
+            android:label="@string/title_activity_resources_result"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemePurple" />
+        <activity
+            android:name=".ResourcesClose1Activity"
+            android:label="@string/title_activity_resources"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemePurple" />
+        <activity
+            android:name=".ResourcesClose2Activity"
+            android:label="@string/title_activity_resources"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemePurple" />
+        <activity
+            android:name=".AboutIntroActivity"
+            android:label="@string/title_activity_about_intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LifeFoundationActivity"
+            android:label="@string/title_activity_life_foundation"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LifeFoundationBodyActivity"
+            android:label="@string/title_activity_life_foundation_body"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LifeFoundationSoulActivity"
+            android:label="@string/title_activity_life_foundation_soul"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LifeFoundationSpiritActivity"
+            android:label="@string/title_activity_life_foundation_spirit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JournalActivity"
+            android:label="@string/title_activity_journal"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JournalQuotesActivity"
+            android:label="@string/title_activity_journal_quotes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JournalAnswersActivity"
+            android:label="@string/title_activity_journal_answers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JournalCommentsActivity"
+            android:label="@string/title_activity_journal_comments"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyJournalActivity"
+            android:label="@string/title_activity_my_journal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyJournalQuotesActivity"
+            android:label="@string/title_activity_my_journal_quotes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusSecurityIntroActivity"
+            android:label="@string/title_activity_core_status_security_intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusHappinessIntroActivity"
+            android:label="@string/title_activity_core_status_happiness_intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusMotivationIntroActivity"
+            android:label="@string/title_activity_core_status_motivation_intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusHappinessQuizActivity"
+            android:label="@string/title_activity_core_status_happiness_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusSecurityQuizActivity"
+            android:label="@string/title_activity_core_status_security_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusMotivationQuizActivity"
+            android:label="@string/title_activity_core_status_motivation_quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusSecurityResultActivity"
+            android:label="@string/title_activity_core_status_security_result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusHappinessResultActivity"
+            android:label="@string/title_activity_core_status_happiness_result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusMotivationResultActivity"
+            android:label="@string/title_activity_core_status_motivation_result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JournalResultsActivity"
+            android:label="@string/title_activity_journal_results"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JournalResultsTabActivity"
+            android:label="@string/title_activity_journal_results_tab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreBeliefsCloseActivity"
+            android:label="@string/title_activity_core_beliefs_close"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreGoalsCloseActivity"
+            android:label="@string/title_activity_core_goals_close"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoreStatusClose1Activity"
+            android:label="@string/title_activity_core_status_close1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".VidioPlayTesting"></activity>
+    </application>
+
+</manifest>

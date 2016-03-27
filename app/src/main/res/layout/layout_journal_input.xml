@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="text|textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextJournalComment"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:editable="true"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter text for Journal"
+        android:gravity="left"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextJournalComment"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/buttonAddCommentCancel"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#2da7fc"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+            android:id="@+id/buttonAddCommentDone"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#2da7fc"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+</RelativeLayout>

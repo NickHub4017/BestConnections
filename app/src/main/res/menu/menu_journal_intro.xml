@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.syncbridge.bestconnections.JournalIntroActivity">
+    <item android:id="@+id/action_menu_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:icon="@mipmap/ic_action_undo"
+        android:title="BACK"
+        app:showAsAction="ifRoom" >
+    </item>
+    <item android:id="@+id/action_menu"
+        android:icon="@mipmap/ic_jn_icon"
+        android:title="Goto"
+        app:showAsAction="ifRoom">
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/core_beliefs"
+                android:title="Core Beliefs" />
+            <item android:id="@+id/core_goals"
+                android:title="Core Goals" />
+            <item android:id="@+id/core_status"
+                android:title="Core Status" />
+            <item android:id="@+id/body"
+                android:title="Body" />
+            <item android:id="@+id/soul"
+                android:title="Soul" />
+            <item android:id="@+id/spirit"
+                android:title="Spirit" />
+            <item android:id="@+id/unconnected"
+                android:title="Unconnected" />
+            <item android:id="@+id/disconnected"
+                android:title="Disconnected" />
+            <item android:id="@+id/my_journal"
+                android:title="My Journal" />
+        </menu>
+    </item>
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"-->
+        <!--android:orderInCategory="100" app:showAsAction="never" />-->
+</menu>

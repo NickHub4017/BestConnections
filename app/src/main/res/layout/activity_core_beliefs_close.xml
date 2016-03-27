@@ -1,0 +1,93 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.syncbridge.bestconnections.CoreBeliefsCloseActivity"
+android:background="@mipmap/ic_cb_background" >
+
+<FrameLayout
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hold those thoughts from these wise guys and gals!"
+                    android:id="@+id/textViewClose1"
+                    android:textSize="25sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What you choose to believe really affects how you interact with the world and shapes your identity, value and purpose."
+                    android:id="@+id/textViewClose2"
+                    android:textSize="25sp"
+                    android:layout_below="@+id/textViewClose1"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Are you ready to look at Core Goals yet? This one could help you on your way. A breather might be a good idea first."
+                    android:id="@+id/textViewClose3"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_below="@+id/textViewClose2"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hit the link when you’re ready..."
+                    android:id="@+id/textViewClose4"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:layout_below="@+id/textViewClose3"
+                    android:layout_marginTop="10dp"
+                    android:linksClickable="true"
+                    android:textColor="#af0c00ff" />
+                
+            </RelativeLayout>
+        </ScrollView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewNext"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_next_button_core_goals" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+<!-- The navigation drawer -->
+<include layout="@layout/layout_navigation_drawer" android:id="@+id/left_drawer"/>
+
+</android.support.v4.widget.DrawerLayout>
+
+

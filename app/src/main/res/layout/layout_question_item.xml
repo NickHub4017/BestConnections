@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:layout_marginBottom="5dp">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.2"
+    android:id="@+id/textViewQuestion"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text=""/>
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.8"
+    android:id="@+id/imageViewQuestion"
+    android:src="@mipmap/ic_write"
+    android:scaleType="centerInside" />
+</LinearLayout>
