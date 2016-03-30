@@ -66,6 +66,8 @@
                         app:siSquare="true"
                         android:layout_below="@+id/textViewSourceNDate"
                         android:layout_marginTop="20dp"
+                        android:visibility="gone"
+
                         android:layout_centerHorizontal="true"/>
 
                     <FrameLayout

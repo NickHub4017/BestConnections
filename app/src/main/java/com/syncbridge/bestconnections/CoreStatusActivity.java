@@ -23,6 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.siyamed.shapeimageview.RoundedImageView;
 
@@ -543,8 +544,11 @@ public class CoreStatusActivity extends MainActivity {
 
             for(final Question question : questionList) {
                 View layoutQuestionItem = inflater.inflate(R.layout.layout_question_item, null);
-                ((TextView)layoutQuestionItem.findViewById(R.id.textViewQuestion)).setText(question.getQuestion());
-                ((ImageView) layoutQuestionItem.findViewById(R.id.imageViewQuestion)).setOnClickListener(new View.OnClickListener() {
+                String qestionstr=question.getQuestion();
+
+                ((TextView) layoutQuestionItem.findViewById(R.id.textViewQuestion)).setText(qestionstr);
+
+                 ((ImageView) layoutQuestionItem.findViewById(R.id.imageViewQuestion)).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         final Dialog dialog = new Dialog(CoreStatusActivity.this);
@@ -597,6 +601,10 @@ public class CoreStatusActivity extends MainActivity {
                         dialog.show();
                     }
                 });
+                if(!qestionstr.contains("?")) { //This is to identify weather the statement is a question or not. IOS simulation 12 sep 2015 00.01.38
+                    ImageView pencilicon=(ImageView)layoutQuestionItem.findViewById(R.id.imageViewQuestion);
+                    pencilicon.setVisibility(View.INVISIBLE);
+                }
                 layoutQuestion.addView(layoutQuestionItem);
             }
 

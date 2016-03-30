@@ -920,9 +920,11 @@ public class LifeFoundationSoulActivity extends Activity {
             //setting image
             if(!currentQuote.getImage().equals("Caricature")) {
                 //Drawable drawable = getResources().getDrawable(CommonFunctions.getResId(currentCB.getImage_path(), this.getClass()));
+                //Toast.makeText(m_context,currentQuote.getImage(),Toast.LENGTH_LONG).show();
                 Drawable drawable = m_context.getResources().getDrawable(CommonFunctions.getResourceId(m_context, currentQuote.getImage(), "mipmap", PakegeName));
                 imageViewCartoon.setImageDrawable(drawable);
             } else {
+                //Toast.makeText(m_context,currentQuote.getImage(),Toast.LENGTH_LONG).show();
                 imageViewCartoon.setImageDrawable(null);
             }
             //render question or option controls
