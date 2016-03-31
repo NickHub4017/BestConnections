@@ -72,14 +72,17 @@ public class MainActivity extends AppCompatActivity {
 
         final VideoView videoView = (VideoView)findViewById(R.id.videoViewC4L);
         final ImageView imageViewVideo = (ImageView) findViewById(R.id.imageViewVideo);
+        videoView.setVisibility(View.INVISIBLE);
 
 
         imageViewVideo.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 try {
+
                     playVideo();
                 } catch (Exception e) {
+                    Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
                 return true;
@@ -103,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
                 videoView.setVisibility(View.INVISIBLE);
-                imageViewVideo.setVisibility(View.VISIBLE);
+                //imageViewVideo.setVisibility(View.VISIBLE);
                 overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
             }
         });
@@ -285,7 +288,9 @@ public class MainActivity extends AppCompatActivity {
     private void playVideo() {
         final VideoView videoView = (VideoView)findViewById(R.id.videoViewC4L);
         final ImageView imageViewVideo = (ImageView) findViewById(R.id.imageViewVideo);
+        //Toast.makeText(getApplicationContext(),""+videoView.isPlaying()+" - "+View.INVISIBLE ,Toast.LENGTH_LONG).show();
         if (videoView.getVisibility() == View.INVISIBLE) {
+
             imageViewVideo.setVisibility(View.INVISIBLE);
             videoView.setVisibility(View.VISIBLE);
             overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
@@ -301,6 +306,7 @@ public class MainActivity extends AppCompatActivity {
                 Uri myVideoUri = Uri.parse("android.resource://"+myAppPack+"/raw/"+myVideoName);
                 //Set the video URI
                 vv.setVideoURI(myVideoUri);
+
                 //Play the video
                 vv.start();
             }
