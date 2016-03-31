@@ -1234,9 +1234,14 @@ public class LifeFoundationSpiritActivity extends Activity {
     @Override
     public void onBackPressed() {
         Log.d("CDA", "onBackPressed Called");
-        if(MainActivity.currentActivity == 0 && MainActivity.activeActivity == 0) {
-            super.onBackPressed();
+        if(currentPosition!=0) {
+            loadDataToControl(2, layoutQuotes);//overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
         }
+        else{    if (MainActivity.currentActivity == 0 && MainActivity.activeActivity == 0) {
+                super.onBackPressed();
+            }
+        }
+
     }
 
     //endregion

@@ -609,6 +609,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerList.findViewById(R.id.dc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Toast.makeText(getApplicationContext(),"Done",Toast.LENGTH_LONG).show();
                 if(CommonFunctions.isSectionFinished(context, "LFSP")) {
                     SECTION_ID = "DC";
                     String lastQuoteId = "";

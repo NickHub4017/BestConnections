@@ -716,9 +716,14 @@ public class CoreStatusActivity extends MainActivity {
         }
 
         if(id == R.id.action_menu_back) {
-            activeActivity = 0;
-            currentActivity = 0;
-            this.finish();
+            if(currentPosition!=0){
+                loadDataToControl(2);
+            }
+            else {
+                activeActivity = 0;
+                currentActivity = 0;
+                this.finish();
+            }
         }
 
         return super.onOptionsItemSelected(item);
